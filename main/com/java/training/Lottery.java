@@ -32,7 +32,7 @@ public class Lottery {
 					|| guessDigit2 ==lotteryDigit2
 					|| guessDigit2 ==lotteryDigit1
 					|| guessDigit2 == lotteryDigit1){
-				System.out.println("Only One Digit match: You win $100");
+				System.out.println("Only One Digit match: You win $1");
 			}
 			else 
 			    System.out.println("No match: Better Luck next time");
