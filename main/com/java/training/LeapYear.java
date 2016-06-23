@@ -12,7 +12,7 @@ public class LeapYear {
 		
 		int year = input.nextInt();
 		
-		boolean isLeapYear = (year % 4 == 0 && year % 100 !=0)|| (year % 400 == 0);
+		boolean isLeapYear = (year % 4 == 0 && year % 100 !=0) || (year % 400 == 0);
 		System.out.println( " Is " + year + " a **Leap Year** ? " + isLeapYear);
 		
 	}
