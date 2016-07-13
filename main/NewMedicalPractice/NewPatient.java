@@ -2,20 +2,23 @@ package NewMedicalPractice;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.TimeZone;
 
 
-public class NewPatient {
+public class NewPatient extends Allergy {
 	private String name;
 	private int age;
 	private String address;
 	private String address2;
-	private int phonenum;
-	private int homephone;
+	private long phonenum;
+	private long homephone;
 	private String sex;
 	private String prefix;
 	private String result;
-	 java.util.Date date = new Date();
+	java.util.Date date = new Date();
 	
+
+
 	public String getName(){
 		return name;
 	}
@@ -36,7 +39,7 @@ public class NewPatient {
 		return phonenum;
 	}
 	
-	public void setPhoneNo(int phonenum, int homephone){
+	public void setPhoneNo(long phonenum, long homephone){
 		this.phonenum=phonenum;
 		this.homephone=homephone;
 	}
@@ -58,9 +61,8 @@ public class NewPatient {
 		this.sex=sex;
 	}
 	
-	public java.util.Date getDate(){
-		
-
+	public Date getDate(){
+	
 		return date;
 	}
 	
@@ -74,6 +76,7 @@ public class NewPatient {
 		System.out.println("Address : " + address + "\n Second address :" + address2);
 		System.out.println("Date admitted :" + date);
 	}
+
 
 	
 
