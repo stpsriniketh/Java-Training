@@ -25,6 +25,7 @@ public class NewPatient extends Allergy {
 	
 	public void setName(String name, String Prefix){
 		this.name=name;
+		this.prefix=Prefix;
 	}
 	
 	public int getAge(){

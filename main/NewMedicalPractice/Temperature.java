@@ -11,6 +11,7 @@ public class Temperature {
     private String recorder;
     private String readingType;
     java.util.Date daterecorded = new Date();
+  
 
     public String getPatientName(){
     	return patientname;
@@ -86,8 +87,9 @@ public class Temperature {
 	    rashu.setReadinType("from Mouth");
 	    rashu.setTempRecorder("Nurse");
 	    rashu.printPatient();
-	    System.out.println("Body Temperatue of Patient is: "   );
 	    rashu.getTemperatureFromMouth(100);
+	    System.out.println("Body Temperatue of Patient is: " );
+	 
 	    
 	    
 	}
