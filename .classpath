@@ -34,5 +34,6 @@
 	<classpathentry kind="lib" path="C:/Users/Conch/Downloads/selenium-2.53.0/libs/selenium-java-2.53.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Conch/Downloads/selenium-2.53.0/libs/selenium-java-2.53.0-srcs.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Conch/Downloads/selenium-2.53.0/libs/testng-6.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Conch/Downloads/selenium-server-standalone-3.0.0-beta2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
